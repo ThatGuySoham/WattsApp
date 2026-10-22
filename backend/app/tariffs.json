@@ -1,0 +1,52 @@
+{
+  "_note": "Indicative domestic (LT residential) tariffs. Slabs are telescopic: each rate applies only to units inside that slab. Edit freely when DISCOMs revise rates.",
+  "Tamil Nadu": {
+    "discom": "TANGEDCO (TNPDCL)",
+    "billing_cycle_days": 60,
+    "fixed_charge_inr": 0,
+    "free_if_units_at_most": null,
+    "slabs": [
+      { "upto": 200,  "rate": 0.00 },
+      { "upto": 400,  "rate": 4.70 },
+      { "upto": 500,  "rate": 6.30 },
+      { "upto": 600,  "rate": 8.40 },
+      { "upto": 800,  "rate": 9.45 },
+      { "upto": 1000, "rate": 10.50 },
+      { "upto": null, "rate": 11.55 }
+    ]
+  },
+  "Maharashtra": {
+    "discom": "MSEDCL",
+    "billing_cycle_days": 30,
+    "fixed_charge_inr": 128,
+    "free_if_units_at_most": null,
+    "slabs": [
+      { "upto": 100,  "rate": 5.88 },
+      { "upto": 300,  "rate": 11.46 },
+      { "upto": 500,  "rate": 15.72 },
+      { "upto": null, "rate": 17.81 }
+    ]
+  },
+  "Karnataka": {
+    "discom": "BESCOM",
+    "billing_cycle_days": 30,
+    "fixed_charge_inr": 120,
+    "free_if_units_at_most": null,
+    "slabs": [
+      { "upto": null, "rate": 5.90 }
+    ]
+  },
+  "Delhi": {
+    "discom": "BSES / TPDDL",
+    "billing_cycle_days": 30,
+    "fixed_charge_inr": 40,
+    "free_if_units_at_most": 200,
+    "slabs": [
+      { "upto": 200,  "rate": 3.00 },
+      { "upto": 400,  "rate": 4.50 },
+      { "upto": 800,  "rate": 6.50 },
+      { "upto": 1200, "rate": 7.00 },
+      { "upto": null, "rate": 8.00 }
+    ]
+  }
+}
